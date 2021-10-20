@@ -1,0 +1,22 @@
+.container {
+  background-image: url("../../img/image.jpeg");
+  margin: 0 auto;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.error {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.errorText {
+  font-family: 'Otomanopee One', sans-serif;
+  color: darkslategrey;
+  font-size: 30px;
+  margin: 40px;
+}

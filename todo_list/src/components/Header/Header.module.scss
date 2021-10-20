@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.link {
+  font-family: 'Otomanopee One', sans-serif;
+  text-decoration: none;
+  color: darkslategrey;
+  font-size: 30px;
+}
+
+.active {
+  color: darkcyan;
+  border-bottom: 1px solid darkcyan;
+}
