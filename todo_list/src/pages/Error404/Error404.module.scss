@@ -1,5 +1,5 @@
 .container {
-  background-image: url("../../img/image.jpeg");
+  background-image: url("../../img/320px.jpeg");
   margin: 0 auto;
   padding: 0;
   background-repeat: no-repeat;
@@ -9,14 +9,32 @@
 }
 
 .error {
-  margin: 0 auto;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 .errorText {
   font-family: 'Otomanopee One', sans-serif;
   color: darkslategrey;
-  font-size: 30px;
+  font-size: 25px;
   margin: 40px;
+}
+
+@media (min-width: 500px) {
+  .error {
+    padding-top: 250px;
+  }
+  .errorText {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    background-image: url("../../img/image.jpeg");
+    background-position: center;
+  }
+  .error {
+    padding-top: 100px;
+  }
 }

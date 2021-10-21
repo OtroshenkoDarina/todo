@@ -4,7 +4,25 @@
   gap: 100px;
   margin: 0 auto;
   padding: 60px 0;
-  max-width: 1200px;
+  max-width: 570px;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 650px) {
+  .list{
+    max-width: 630px;
+  }
+}
+
+@media (min-width: 768px) {
+  .list{
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .list{
+    max-width: 1200px;
+  }
 }

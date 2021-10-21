@@ -1,9 +1,16 @@
-.container {
-  background-image: url("../../img/image.jpeg");
+.container{
+  background-image: url("../../img/320px.jpeg");
   margin: 0 auto;
   padding: 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height: 100vh;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    background-image: url("../../img/image.jpeg");
+    background-position: center;
+  }
 }

@@ -1,22 +1,22 @@
 
 .form {
-  width: 600px;
+  width: 240px;
   margin: 100px auto 30px;
   border: 1px solid darkslategrey;
   border-radius: 40px;
-  padding: 30px;
+  padding: 20px;
 }
 
 .formTitle {
   text-align: center;
   font-family: 'Otomanopee One', sans-serif;
   color: #660a2c;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .formInput {
   margin: 40px auto 10px;
-  width: 500px;
+  width: 200px;
   display: block;
   padding: 10px 15px;
   font-size: 16px;
@@ -33,4 +33,38 @@
   font-weight: bold !important;
   font-family: Otomanopee One, sans-serif !important;
   border: 2px solid !important
+}
+
+@media (min-width: 450px) {
+  .form{
+    width: 340px;
+  }
+  .formInput {
+    width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .formTitle {
+    font-size: 22px;
+  }
+  .form{
+    width: 450px;
+  }
+  .formInput{
+    width: 400px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .form {
+    width: 600px;
+    padding: 30px;
+  }
+  .formTitle {
+    font-size: 26px;
+  }
+  .formInput {
+    width: 500px;
+  }
 }
